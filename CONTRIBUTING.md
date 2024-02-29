@@ -75,6 +75,8 @@ To get started with Code Racer locally, follow these steps
    ```sh
    npm run dev:db
    ```
+   Ensure docker is opened before running this command
+
 
 9. Start the app dev server
 
@@ -89,6 +91,9 @@ npm run dev:wss
 ```
 
 Open your browser and visit <http://localhost:3000> to see the application running.
+
+Alternatively, the console will indicate the local host port number if your port 3000 is engaged.
+DO NOT change the port in the code.
 
 ## Working on New Features
 
